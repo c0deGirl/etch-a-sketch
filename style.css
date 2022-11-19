@@ -1,0 +1,64 @@
+body {
+    background-color: #e8dbd5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#title {
+    font-size: 35px;
+    color: #b5927f;
+    text-align: center;
+    padding: 30px;
+}
+
+#main-site {
+    height: 550px;
+    margin-left: 170px;
+    margin-right: 50px;
+    display: flex;
+    
+}
+
+#buttons {
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.options {
+    font-size: 20px;
+    background-color: #ebcdc3;
+    color: #8d6554;
+    border-color: #dabcb2;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.size {
+    margin-left: 100px;
+    height: 130px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    color: #8d6554;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#square {
+    width: 430px;
+    height: 430px;
+    border-style:groove;
+    border-color: #dabcb2;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
